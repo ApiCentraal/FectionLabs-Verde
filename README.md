@@ -2,6 +2,10 @@
 
 <img src="images/banner.svg" alt="FectionLabs Theme Verde" width="900" />
 
+<br /><br />
+
+<img src="icon.png" alt="FectionLabs Theme Verde icon" width="112" style="border-radius:26px;border:3px solid #D4A853;box-shadow:0 8px 32px #0E151288;" />
+
 # FectionLabs Theme Verde
 
 **Calm forest green for long coding sessions**
@@ -19,21 +23,19 @@
 
 ## Preview
 
-<p align="center">
-  <img src="images/screenshots/hero.png" alt="FectionLabs Theme Verde — palette and tagline" width="800" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="images/screenshots/editor-typescript.png" alt="TypeScript editor preview" width="800" />
-  <br />
-  <em>TypeScript — forest chrome, champagne-gold tab stripe, mint cursor</em>
-</p>
+<img src="images/screenshots/hero.png" alt="Palette and tagline" width="720" style="border-radius:20px;border:2px solid #52B78866;box-shadow:0 18px 48px #0E151266;display:block;margin:0 auto -28px auto;" />
 
-<p align="center">
-  <img src="images/screenshots/editor-react.png" alt="React TSX editor preview" width="800" />
-  <br />
-  <em>React / TSX — readable JSX tags and attributes</em>
-</p>
+<img src="images/screenshots/editor-typescript.png" alt="TypeScript editor" width="720" style="border-radius:20px;border:2px solid #52B78866;box-shadow:0 18px 48px #0E151266;display:block;margin:0 auto -28px auto;" />
+
+<img src="images/screenshots/editor-react.png" alt="React TSX editor" width="720" style="border-radius:20px;border:2px solid #52B78866;box-shadow:0 18px 48px #0E151266;display:block;margin:0 auto;" />
+
+<br />
+
+*TypeScript & React — forest chrome, champagne-gold tab stripe, mint cursor*
+
+</div>
 
 ---
 
