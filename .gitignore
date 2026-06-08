@@ -1,0 +1,4 @@
+_maintainer/
+*.vsix
+node_modules/
+.cursor/

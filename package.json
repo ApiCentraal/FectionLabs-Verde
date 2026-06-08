@@ -1,0 +1,66 @@
+{
+  "name": "fectionlabs-verde-theme",
+  "displayName": "FectionLabs Theme Verde",
+  "description": "Elegant forest-green dark theme for VS Code, Cursor, Windsurf, VSCodium & more. Champagne-gold chrome, calm syntax, long-session readability. Free MIT.",
+  "version": "1.0.0",
+  "publisher": "fectionlabs",
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ApiCentraal/FectionLabs-Verde.git"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": ["Themes"],
+  "keywords": [
+    "theme",
+    "color theme",
+    "dark theme",
+    "green theme",
+    "forest",
+    "verde",
+    "branded",
+    "fectionlabs",
+    "cursor",
+    "windsurf",
+    "vscodium",
+    "trae",
+    "antigravity",
+    "openvsx",
+    "vscode",
+    "syntax highlighting"
+  ],
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "extensionKind": ["ui", "workspace"],
+  "capabilities": {
+    "virtualWorkspaces": true,
+    "untrustedWorkspaces": { "supported": true }
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "FectionLabs Theme Verde",
+        "uiTheme": "vs-dark",
+        "path": "./fectionlabs-verde-theme.json"
+      }
+    ],
+    "configuration": {
+      "title": "FectionLabs Verde",
+      "properties": {
+        "fectionlabsVerde.enableCustomCursor": {
+          "type": "boolean",
+          "default": true,
+          "description": "Override cursor color when FectionLabs Theme Verde is active."
+        },
+        "fectionlabsVerde.enableLineHighlight": {
+          "type": "boolean",
+          "default": true,
+          "description": "Override current-line highlight when FectionLabs Theme Verde is active."
+        }
+      }
+    }
+  }
+}
